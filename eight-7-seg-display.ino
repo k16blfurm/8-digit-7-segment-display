@@ -67,12 +67,14 @@ void setup() {
 
 }
 
-void loop() {
-  unsigned int counter = 0;
+unsigned int counter = 0;
   // we use i for the certain 7 segment we'd like to display values on
   int i;
   //This is what gets sent to the board, sends the value as binary
   byte value;
+
+void loop() {
+  
 
 
   
